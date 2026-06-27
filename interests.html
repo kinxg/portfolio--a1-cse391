@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interests — Radwan Islam</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Interests</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="personal-interests" class="portfolio">
+            <h2>Personal Interests</h2>
+            <div class="interest-panel">
+                <div class="panel-header">Interests</div>
+                <div class="panel-content">
+                    <div class="interest-subsection">
+                        <h3>Hobbies</h3>
+                        <p>Chess, anime, fitness, and biographies.</p>
+                    </div>
+                    <div class="interest-subsection">
+                        <h3>Extracurricular</h3>
+                        <p>Volunteering, workshops, and seminars participations.</p>
+                    </div>
+                    <div class="interest-subsection">
+                        <h3>Favorite Anime</h3>
+                        <ul>
+                            <li>One Piece</li>
+                            <li>Bleach</li>
+                            <li>Fullmetal Alchemist: Brotherhood</li>
+                            <li>Attack on Titan</li>
+                            <li>Hell's Paradise</li>
+                            <li>My Hero Academia</li>
+                            <li>Hunter x Hunter</li>
+                            <li>Black Clover</li>
+                            <li>jujutsu kaisen</li>
+                            <li>Tokyo Ghoul</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="page-info"></p>
+    </footer>
+    <script>
+        var pageLocation = 'Page location: ' + window.location.origin + window.location.pathname + window.location.search;
+        var lastModified = 'Last modified: ' + document.lastModified;
+        document.getElementById('page-info').textContent = pageLocation + ' | ' + lastModified;
+    </script>
+</body>
+</html>

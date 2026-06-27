@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communities — Radwan Islam</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Communities</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="communities" class="portfolio">
+            <h2>Communities</h2>
+            <div class="links-grid">
+                <div class="link-category">
+                    <h3>Community Links</h3>
+                    <ul>
+                        <li><a href="https://www.bracu.ac.bd" target="_blank">Brac University</a></li>
+                        <li><a href="https://discord.gg/qGFewSAwj" target="_blank">CSE391 Discord</a></li>
+                    </ul>
+                </div>
+                <div class="link-category">
+                    <h3>Learning Groups</h3>
+                    <ul>
+                        <li>study sessions</li>
+                        <li>Github communities.</li>
+                        <li>discord group sessions.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="page-info"></p>
+    </footer>
+    <script>
+        var pageLocation = 'Page location: ' + window.location.origin + window.location.pathname + window.location.search;
+        var lastModified = 'Last modified: ' + document.lastModified;
+        document.getElementById('page-info').textContent = pageLocation + ' | ' + lastModified;
+    </script>
+</body>
+</html>
